@@ -5,7 +5,7 @@ import img from '../../img/clarusway.png'
 const Header = () => {
   return (
     <div className='header'>
-    <img src={img} alt="" />
+    <img src={img} alt="img" />
     </div>
   )
 }

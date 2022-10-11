@@ -3,7 +3,11 @@ import "./Main.css"
 
 const Main = () => {
   return (
-    <div>Main</div>
+
+    <div className=''>
+    <h1 className='title'></h1>
+    
+    Main</div>
   )
 }
 
