@@ -8,7 +8,7 @@ const Main = (props) => {
     <div className="main">
       <div className="container">
         <h1>{title}</h1>
-        <img src={img} alt="#" />
+        <img src={img} alt="" />
         <p>{desc}</p>
       </div>
     </div>

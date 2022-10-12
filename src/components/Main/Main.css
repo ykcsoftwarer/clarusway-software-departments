@@ -15,11 +15,11 @@
      box-shadow: 7px 7px 8px gray, -7px -7px 8px gray;
      border-radius: 10px;
  }
- /* .container img:hover{
+ .container img:hover{
     box-shadow: 2px;
      
  
- } */
+ }
  .container p{
      margin: 30px;
      font-size: 22px;
