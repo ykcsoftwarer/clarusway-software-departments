@@ -1,9 +1,12 @@
 import React from 'react'
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+    <p className='footer'> Copyright by Clarusway</p>
+    
+    </div>
   )
 }
 

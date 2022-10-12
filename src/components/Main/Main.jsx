@@ -1,13 +1,17 @@
 import React from 'react'
-import "./Main.css"
+import data from '../../assests/data';
+import './Main.css';
 
-const Main = () => {
+const Main = (props) => {
+  const{id, title, img, desc}=props;
   return (
-
-    <div className=''>
-    <h1 className='title'></h1>
-    
-    Main</div>
+    <div className="main">
+      <div className="container">
+        <h1>{title}</h1>
+        <img src={img} alt="#" />
+        <p>{desc}</p>
+      </div>
+    </div>
   )
 }
 
