@@ -1,9 +1,9 @@
 import React from 'react'
-import data from '../../assests/data';
+// import data from '../../assests/data';
 import './Main.css';
 
 const Main = (props) => {
-  const{id, title, img, desc}=props;
+  const{ title, img, desc}=props;
   return (
     <div className="main">
       <div className="container">
